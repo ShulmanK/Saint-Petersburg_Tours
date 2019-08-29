@@ -81,11 +81,13 @@ body {
     animation-timing-function: ease-out; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
-        letter-spacing: 3rem; } }
+        letter-spacing: 3rem;
+        font-size: 5rem; } }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         font-weight: 400;
-        letter-spacing: 1rem; } }
+        letter-spacing: 1rem;
+        font-size: 5rem; } }
   .heading-primary--sub {
     font-size: 2rem;
     display: block;
@@ -770,7 +772,7 @@ body {
       padding-left: 6rem; } }
   @media only screen and (max-width: 37.5em) {
     .story {
-      transform: skewX(0deg); } }
+      transform: skewX(0); } }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -799,16 +801,16 @@ body {
     color: #fff;
     opacity: 0;
     backface-visibility: hidden;
-    transition: all .5s; }
+    transition: all 0.5s; }
   .story__img {
     width: 15rem;
     transform: scale(1.4);
-    transition: all .5s; }
+    transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
     @media only screen and (max-width: 37.5em) {
       .story__text {
-        transform: translateX(0) skewX(1.2); } }
+        transform: translateX(0) skewX(0); } }
   .story:hover .story__img {
     transform: scale(1.25);
     filter: blur(3px) brightness(80%); }

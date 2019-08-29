@@ -21,10 +21,12 @@ body{
     animation-timing-function: ease-out;
     @include respond(tab-port){
       letter-spacing: 3rem;
+      font-size: 5rem;
     }
     @include respond(phone){
       font-weight: 400;
       letter-spacing: 1rem;
+      font-size: 5rem;
     }
   }
   &--sub{
